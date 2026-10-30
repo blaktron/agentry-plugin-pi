@@ -1,0 +1,49 @@
+{
+  "name": "@secureagentry/pi-agentry",
+  "version": "0.1.0",
+  "description": "Find, verify, install and run QuickAgents (signed, scanned agent packages with a declared capability contract) and build your own, from your agent host.",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://docs.secureagentry.net/agentry/mcp/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blaktron/agentry-plugin-pi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blaktron/agentry-plugin-pi/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "agentry",
+    "quickagents",
+    "agents",
+    "mcp",
+    "skills",
+    "sandbox",
+    "supply-chain",
+    "security"
+  ],
+  "engines": {
+    "node": ">=22.19"
+  },
+  "files": [
+    "extension.mjs",
+    "gate.mjs",
+    "skills",
+    "prompts",
+    "server",
+    "README.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./extension.mjs"
+    ],
+    "skills": [
+      "./skills"
+    ],
+    "prompts": [
+      "./prompts/*.md"
+    ]
+  }
+}
