@@ -18,7 +18,7 @@ Then run `/agentry-setup`.
 ## What it adds
 
 - The `agentry` skill and the commands `/agentry-find`, `/agentry-new`, `/agentry-run`, `/agentry-setup`, `/agentry-sign-in`.
-- The Agentry MCP server 0.6.999, bundled in `server/`, registered with pi's MCP client.
+- The Agentry MCP server 0.6.1002, bundled in `server/`, registered with pi's MCP client.
 - An approval prompt before any Agentry call that installs, runs or changes your setup.
   In print or JSON mode, where pi cannot ask, those calls are refused.
 
