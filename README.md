@@ -5,7 +5,7 @@ Agentry brings QuickAgents into your agent host. Search a registry, read a Quick
 ## Install
 
 ```sh
-pi install npm:@secureagentry/pi-agentry
+pi install git:github.com/blaktron/agentry-plugin-pi
 ```
 
 Then run `/agentry-setup`.
